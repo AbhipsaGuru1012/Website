@@ -359,3 +359,18 @@ li{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+/*Links styling*/
+.link{
+  width: 250px;
+  background-color: yellow;
+  padding: 14px;
+  margin: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+i{
+   float: right;
+}
+.link-block{
+    margin-top: 38px;
+}
