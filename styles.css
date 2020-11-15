@@ -351,7 +351,7 @@ li{
 }
 /*Links styling*/
 .link{
-  width: 250px;
+  /* width: 250px; */
   background-color: yellow;
   padding: 14px;
   margin: 10px;
@@ -388,10 +388,7 @@ i{
 }
 
 .dark-desk-text-detail {
-  color: white;
-}
-.light-desk-text-detail {
-  color: black;
+  color:var(--header-text);
 }
 h5{
   color:var(--header-text);
@@ -401,4 +398,45 @@ h5{
 .welcome {
  color: var(--header-text);
  font-size: smaller;
+}
+.text-content{
+  color: var(--header-text);
+ font-size: smaller;
+}
+#welcome-col-title{
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+#welcome-col-title::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 150px;
+  background: #726969;
+  background: -webkit-gradient(linear, left top, right top, from(#726969), color-stop(30%, #726969), to(#a7a7a7));
+  height: 3px;
+}
+#events-col-title{
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+#events-col-title::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 150px;
+  background: #726969;
+  background: -webkit-gradient(linear, left top, right top, from(#726969), color-stop(30%, #726969), to(#a7a7a7));
+  height: 3px;
+}
+.text-content{
+  display: block;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
 }
