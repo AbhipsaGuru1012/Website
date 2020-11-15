@@ -388,10 +388,7 @@ i{
 }
 
 .dark-desk-text-detail {
-  color: white;
-}
-.light-desk-text-detail {
-  color: black;
+  color:var(--header-text);
 }
 h5{
   color:var(--header-text);
